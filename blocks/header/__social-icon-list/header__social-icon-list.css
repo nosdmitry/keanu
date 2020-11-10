@@ -1,0 +1,7 @@
+.header__social-icon-list {
+  margin-right: 21px;
+}
+
+.header__social-icon-list:last-of-type {
+  margin-right: 0;
+}
