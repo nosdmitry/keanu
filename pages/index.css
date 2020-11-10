@@ -4,6 +4,7 @@
 @import url(../blocks/body/body.css);
 
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__conteiner/header__conteiner.css);
 @import url(../blocks/header/__social-icons/header__social-icons.css);
 @import url(../blocks/header/__social-icon/header__social-icon.css);
 @import url(../blocks/header/__social-icon-list/header__social-icon-list.css);
