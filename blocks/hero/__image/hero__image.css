@@ -1,0 +1,13 @@
+.hero__image {
+  width: 384px;
+  height: 384px;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-image: url(../../../images/Keanu.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 11px solid red;
+  border-radius: 50%;
+  border-color: #cecece;
+
+}
