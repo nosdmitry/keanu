@@ -1,9 +1,10 @@
-.header__conteiner {
+.hero__container {
   margin: 0 auto;
-  padding-top: 41px;
   max-width: 944px;
-  
+  padding: 109px 0 71px 0;
   box-sizing: border-box;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+
 }
