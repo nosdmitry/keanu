@@ -1,0 +1,27 @@
+.portfolio__card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 304px;
+    height: 304px;
+    text-decoration: none;
+    background-size: cover;
+    position: relative;
+}
+
+.portfolio__card:before {
+    content: " ";
+    width: 304px;
+    height: 304px;
+    position: absolute;
+    margin: 0;
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #213E60 99.85%);
+    border-radius: 6px;
+    opacity: 1;
+    transition: opacity .5s ease-out;
+}
+
+.portfolio__card:hover::before {
+    opacity: .3;
+}

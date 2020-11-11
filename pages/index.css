@@ -1,11 +1,76 @@
-@import url(../vendor/normalize.css);
-@import url(../vendor/fonts/stylesheet.css);
 
-@import url(../blocks/body/body.css);
 
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/__conteiner/header__conteiner.css);
-@import url(../blocks/header/__social-icons/header__social-icons.css);
-@import url(../blocks/header/__social-icon/header__social-icon.css);
-@import url(../blocks/header/__social-icon-list/header__social-icon-list.css);
-@import url(../blocks/header/__logo/header__logo.css);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url(../blocks/body/__button/_place_portfolio/body__button_place_portfolio.css);
+
+@import url(../blocks/portfolio/portfolio.css);
+@import url(../blocks/portfolio/__container/portfolio__container.css);
+@import url(../blocks/portfolio/__title/portfolio__title.css);
+@import url(../blocks/portfolio/__cards/portfolio__cards.css);
+@import url(../blocks/portfolio/__card/portfolio__card.css);
+@import url(../blocks/portfolio/__card/_first/portfolio__card_first.css);
+@import url(../blocks/portfolio/__card-title/portfolio__card-title.css);
+@import url(../blocks/portfolio/__card/_second/portfolio__card_second.css);
+@import url(../blocks/portfolio/__card/_third/portfolio__card_third.css);
+
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__container/gallery__container.css);
+@import url(../blocks/gallery/__item/gallery__item.css);
+@import url(../blocks/gallery/__item/_video/gallery__item_video.css);
+@import url(../blocks/gallery/__item/_video/gallery__item_video_first.css);
+@import url(../blocks/gallery/__item/_video/gallery__item_video_second.css);
+@import url(../blocks/gallery/__play/gallery__play.css);
+@import url(../blocks/gallery/__time/gallery__time.css);
+
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__container/contacts__container.css);
+@import url(../blocks/contacts/__title/contacts__title.css);
+@import url(../blocks/contacts/__block/contacts__block.css);
+@import url(../blocks/contacts/__form/contacts__form.css);
+@import url(../blocks/contacts/__form-title/contacts__form-title.css);
+@import url(../blocks/contacts/__form-item/contacts__form-item.css);
+@import url(../blocks/contacts/__form-item/__form-item_name/contacts__form-item-name.css);
+@import url(../blocks/contacts/__form-item/__form-item_phone/contacts__form-item_phone.css);
+@import url(../blocks/body/__button/_place_contacts/body__button_place_contacts.css);
+
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__text/contacts__text.css);
+@import url(../blocks/contacts/__data/contacts__data.css);
+@import url(../blocks/contacts/__data-item/contacts__data-item.css);
+@import url(../blocks/contacts/__data-title/contacts__data-title.css);
+@import url(../blocks/contacts/__data-text/contacts__data-text.css);
+@import url(../blocks/contacts/__social/contacts__social.css);
+@import url(../blocks/contacts/__social-links/contacts__social-links.css);
+@import url(../blocks/contacts/__social-icons/contacts__social-icons.css);
+@import url(../blocks/contacts/__social-icon/contacts__social-icon.css);
+@import url(../blocks/contacts/__social-icon-image/contacts__social-icon-image.css);
+@import url(../blocks/contacts/__policy/contacts__policy.css);

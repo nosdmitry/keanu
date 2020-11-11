@@ -1,0 +1,14 @@
+.portfolio__card-title {
+    display: inline-block;
+    margin: auto auto 76px 30px;
+    max-width: 170px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: calc(28 / 18);
+    position: absolute;
+    z-index: 1;
+
+    color: #FFFFFF;
+}

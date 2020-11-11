@@ -1,0 +1,6 @@
+.contacts__social-links {
+    display: grid;
+    grid-template-columns: 85px 92px 94px;
+    grid-template-rows: max-content;
+    gap: 50px;
+}

@@ -1,0 +1,7 @@
+.contacts__block {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 80px 0 0 0;
+}

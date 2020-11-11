@@ -1,0 +1,7 @@
+.contacts__social-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 32px 0 0 0;
+}

@@ -1,0 +1,12 @@
+.contacts__form-item_phone {
+    background-image: url(../../../../images/phone-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 24px 27px;
+    text-indent: 52px;
+}
+
+.contacts__form-item_phone:focus {
+    background-image: none;
+    outline: none;
+    border: 1px solid #ffbb01;
+}
