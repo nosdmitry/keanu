@@ -1,0 +1,67 @@
+.contacts__form-item {
+    width: 380px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 0 20px 0;
+    padding: 0;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: calc(28 / 14);
+    
+    color: black;
+
+    background: #F8F8F8;
+    box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+    border-radius: 5px;
+    border: none;
+}
+
+.contacts__form-item:last-of-type {
+    margin: 0;
+}
+
+.contacts__form-item::-webkit-input-placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: calc(28 / 14);
+    
+    color: #949494;
+}
+
+.contacts__form-item::-moz-placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: calc(28 / 14);
+    
+    color: #949494;
+}
+
+.contacts__form-item::-ms-input-placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: calc(28 / 14);
+    
+    color: #949494;
+}
+
+.contacts__form-item::placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: calc(28 / 14);
+    
+    color: #949494;
+}

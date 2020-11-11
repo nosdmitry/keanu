@@ -1,0 +1,15 @@
+.contacts__form-title {
+    max-width: 380px;
+    margin: 47px auto 30px auto;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    
+    text-align: center;
+    
+    color: #000000;
+}

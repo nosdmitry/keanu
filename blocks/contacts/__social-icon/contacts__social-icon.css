@@ -1,0 +1,9 @@
+.contacts__social-icon {
+    opacity: 1;
+    transition: opacity .5s ease-out;
+    margin: 0 21px 0 0;
+}
+
+.contacts__social-icon:hover {
+    opacity: .7
+}

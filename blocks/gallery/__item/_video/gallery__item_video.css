@@ -1,0 +1,8 @@
+.gallery__item_video {
+    object-fit: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-size: cover;
+}

@@ -1,0 +1,8 @@
+.gallery__container {
+    display: grid;
+    max-width: 944px;
+    grid-template-columns: repeat(4, max-content);
+    grid-template-rows: repeat(3, max-content);
+    gap: 16px;
+    margin: 96px auto;
+}

@@ -1,0 +1,17 @@
+.contacts__policy {
+    margin: 206px 0 0 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    opacity: 1;
+    transition: opacity .5s ease-out;
+    color: #949494;
+}
+
+.contacts__policy:hover {
+    text-decoration: none;
+    color: white;
+    opacity: .7;
+}

@@ -1,0 +1,5 @@
+.portfolio__card_third {
+    background-image: url(../../../../images/portfolio3.jpg);
+    border-radius: 6px;
+    transition: transform .5s ease-out;
+}

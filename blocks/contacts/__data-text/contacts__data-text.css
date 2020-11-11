@@ -1,0 +1,16 @@
+.contacts__data-text {
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 20px 0 0 0;
+    opacity: 1;
+    transition: opacity .5 ease-out;
+    color: white;
+}
+
+.contacts__data-text:hover {
+    text-decoration: underline;
+    opacity: .7;
+}

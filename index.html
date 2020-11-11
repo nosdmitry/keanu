@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="ru">
 
 <head>
@@ -46,9 +46,6 @@
           <p class="hero__text">Разрабатываю сайты для малого и среднего бизнеса. 
             У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина
           </p>
-          
-          <!-- Кнопку можно использовать повторно
-          просто изменив модификатор _place_contacts -->
           <a href="#" class="body__button body__button_place_hero">
             бесплатная консультация
           </a>
@@ -105,12 +102,98 @@
       </div>
     </section>
 
+    
+      <section class="portfolio">
+        <div class="portfolio__container">
+          <h2 class="portfolio__title">Выполненные проекты</h2>
+          <ul class="portfolio__cards">
+            <li class="portfolio__card portfolio__card_first">
+              <p class="portfolio__card-title">The curious corner of chamarel</p>
+              <a href="#" class="body__button body__button_place_portfolio">Посмотреть</a>
+            </li>
+            <li class="portfolio__card portfolio__card_second">
+              <p class="portfolio__card-title">Gymkhana club golf course</p>
+              <a href="#" class="body__button body__button_place_portfolio">Посмотреть</a>
+            </li>
+            <li class="portfolio__card portfolio__card_third">
+              <p class="portfolio__card-title">Tamarind falls hiking trip - full day</p>
+              <a href="#" class="body__button body__button_place_portfolio">Посмотреть</a>
+            </li>
+          </ul>
+        </div>
+      </section>
 
+      <section class="gallery">
+        <div class="gallery__container">
+          <img class="gallery__item" src="./images/gallery01.jpg" alt="Графитти на стене в комнате">
+          <img class="gallery__item" src="./images/gallery02.jpg" alt="Столы, стулья, лампы">
+          <img class="gallery__item" src="./images/gallery03.jpg" alt="Разговор группы людей">
+          <img class="gallery__item" src="./images/gallery04.jpg" alt="Оупенспейс">
+          <img class="gallery__item" src="./images/gallery05.jpg" alt="Вывеска Фигмы">
+          <div class="gallery__item gallery__item_video gallery__item_video_first">
+            <p class="gallery__time">0:28</p>
+            <img class="gallery__play" src="./images/play_circle_filled.svg" alt="Кнопка Play">
+          </div>
+          <img class="gallery__item" src="./images/gallery07.jpg" alt="Книжные полки">
+          <img class="gallery__item" src="./images/gallery08.jpg" alt="Стол в комнате">
+          <img class="gallery__item" src="./images/gallery09.jpg" alt="Чернокожая девушка">
+          <img class="gallery__item" src="./images/gallery10.jpg" alt="Рабочий стол, записная книжка">
+          <div class="gallery__item gallery__item_video gallery__item_video_second">
+            <p class="gallery__time">0:28</p>
+            <img class="gallery__play" src="./images/play_circle_filled.svg" alt="Кнопка Play">
+          </div>
+          <img class="gallery__item" src="./images/gallery12.jpg" alt="Обсуждение в команде">
+        </div>
+      </section>
   </main>
 
-
-  <footer>
-
+  <footer class="contacts">
+    <div class="contacts__container">
+      <h2 class="contacts__title">Свяжитесь со мной</h2>
+      <div class="contacts__block">
+        <form class="contacts__form">
+          <p class="contacts__form-title">Можете просто оставить заявку, я позвоню вам сегодня</p>
+          <input class="contacts__form-item contacts__form-item_name" type="text" placeholder="Ваше имя">
+          <input class="contacts__form-item contacts__form-item_phone" type="text" placeholder="Ваш телефон">
+          <a href="#" class="body__button body__button_place_contacts">бесплатная консультация</a>
+        </form>
+        <div class="contacts__text">
+          <div class="contacts__data">
+            <div class="contacts__data-item">
+              <p class="contacts__data-title">Телефон</p>
+              <p class="contacts__data-text">+7 999 123 45 67</p>
+            </div>
+            <div class="contacts__data-item">
+              <p class="contacts__data-title">Почта</p>
+              <a href="#" class="contacts__data-text">ivanov@mail.ru</a>
+            </div>
+          </div>
+          <div class="contacts__social">
+            <p class="contacts__data-title">Соцсети</p>
+            <div class="contacts__social-links">
+              <a href="#" class="contacts__data-text">t.me/ivanov</a>
+              <a href="#" class="contacts__data-text">vk.me/ivanov</a>
+              <a href="#" class="contacts__data-text">fb.me/ivanov</a>
+            </div>
+          </div>
+          <div class="contacts__social-icons">
+            <a href="#" class="contacts__social-icon">
+              <img class="contacts__social-icon-image" src="./images/github.svg" alt="Ссылка на github">
+            </a>
+            <a href="#" class="contacts__social-icon">
+              <img class="contacts__social-icon-image" src="./images/twitter.svg" alt="Ссылка на twitter">
+            </a>
+            <a href="#" class="contacts__social-icon">
+              <img class="contacts__social-icon-image" src="./images/instagram.svg" alt="Ссылка на instagram">
+            </a>
+            <a href="#" class="contacts__social-icon">
+              <img class="contacts__social-icon-image" src="./images/facebook.svg" alt="Ссылка на facebook">
+            </a>
+          </div>
+          <a href="#" class="contacts__policy">Политика конфиденциальности</a>
+        </div>
+      </div>
+    </div>  
   </footer>
 
 </body>

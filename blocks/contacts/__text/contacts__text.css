@@ -1,0 +1,9 @@
+.contacts__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0 0 0 96px;
+    color: #FFFFFF;
+    font-family: Roboto;
+}

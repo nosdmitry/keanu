@@ -1,0 +1,12 @@
+.contacts__form-item_name {
+    background-image: url(../../../../images/user-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 24px 27px;
+    text-indent: 52px;
+}
+
+.contacts__form-item_name:focus {
+    background-image: none;
+    outline: none;
+    border: 1px solid #ffbb01;
+}
