@@ -1,0 +1,6 @@
+.hero__main-text {
+  max-width: 444px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

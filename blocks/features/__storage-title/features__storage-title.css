@@ -1,0 +1,8 @@
+.features__storage-title {
+  margin: 0 0 16px 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: calc(28 / 24);
+  color: #fff;
+}

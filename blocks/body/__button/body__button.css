@@ -1,0 +1,16 @@
+.body__button {
+  background-color: #ffbb01;
+  height: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: calc(16 / 12);
+  color: #1b2944;
+
+  border-radius: 10px;
+  box-shadow: 0 4px 0 #b68500;
+}
