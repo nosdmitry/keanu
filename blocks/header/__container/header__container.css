@@ -1,9 +1,10 @@
 .header__container {
   margin: 0 auto;
+  padding: 41px 25px 0 25px;
   padding-top: 41px;
   max-width: 944px;
   
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   display: flex;
   justify-content: space-between;
 }

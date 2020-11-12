@@ -6,8 +6,26 @@
   background-image: url(../../../images/Keanu.jpg);
   background-position: center;
   background-size: cover;
-  border: 11px solid red;
+  border: 11px solid #cecece;
   border-radius: 50%;
-  border-color: #cecece;
+}
 
+@media (max-width: 769px) {
+  .hero__image {
+    grid-row: 1;
+    margin: 0 auto;
+    width: 284px;
+    height: 284px;
+    border: 7px solid #cecece;
+  }
+}
+
+@media (max-width: 321px) {
+  .hero__image {
+    grid-row: 1;
+    margin: 0 auto;
+    width: 107px;
+    height: 107px;
+    border: 3px solid #cecece;
+  }
 }
