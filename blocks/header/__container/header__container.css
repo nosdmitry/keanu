@@ -8,3 +8,9 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 321px) {
+  .header__container {
+    padding-top: 35px;
+  }
+}

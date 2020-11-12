@@ -2,3 +2,16 @@
   max-width: 300px;
   margin-top: 38px;
 }
+
+@media (max-width: 768px) {
+  .body__button_place_hero {
+    width: 283px;
+  }
+}
+
+@media (max-width: 321px) {
+  .body__button_place_hero {
+    width: 267px;
+    margin-top: 58px;
+  }
+}

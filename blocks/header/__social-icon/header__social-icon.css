@@ -1,0 +1,11 @@
+@media (max-width: 321px) {
+  .header__social-icon {
+    width: 75%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__social-icon {
+    width: 85%;
+  }
+}

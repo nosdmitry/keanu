@@ -7,3 +7,17 @@
   line-height: calc(59 / 50);
   color: #fff;
 }
+
+@media (max-width: 769px) {
+  .hero__title {
+    font-size: 39px;
+  }
+}
+
+@media (max-width: 321px) {
+  .hero__title {
+    font-size: 24px;
+    line-height: calc(28 / 24);
+    margin-top: 3px;
+  }
+}

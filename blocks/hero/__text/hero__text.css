@@ -7,3 +7,17 @@
   color: #fff;
 
 }
+
+@media (max-width: 769px) {
+  .hero__text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 321px) {
+  .hero__text {
+    font-size: 14px;
+    line-height: calc(20 / 14);
+    margin-top: 17px;
+  }
+}

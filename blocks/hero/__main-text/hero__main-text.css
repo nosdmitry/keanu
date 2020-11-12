@@ -4,3 +4,10 @@
   flex-direction: column;
   justify-content: flex-start;
 }
+
+@media (max-width: 769px) {
+  .hero__main-text {
+    max-width: 100%;
+    align-items: center;
+  }
+}
