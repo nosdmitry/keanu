@@ -6,3 +6,15 @@
   line-height: calc(28 / 24);
   color: #ffbb01;
 }
+
+@media (max-width: 789px) {
+  .hero__subtitle {
+    margin-top: 37px;
+  }
+}
+
+@media (max-width: 319px) {
+  .hero__subtitle {
+    margin-top: 17px;
+  }
+}

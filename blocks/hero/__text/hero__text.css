@@ -7,3 +7,9 @@
   color: #fff;
 
 }
+
+@media (max-width: 769px) {
+  .hero__text {
+    text-align: center;
+  }
+}
