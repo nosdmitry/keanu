@@ -8,3 +8,9 @@
   column-gap: 16px;
   row-gap: 71px;
 }
+
+@media (max-width: 320px) {
+  .features__block {
+    row-gap: 35px;
+  }
+}

@@ -6,7 +6,7 @@
   margin-right: 0;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 321px) {
   .header__social-icon-list {
     margin-right: 8px;
   }

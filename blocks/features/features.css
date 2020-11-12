@@ -3,3 +3,9 @@
   background-color: #141f35;
   padding: 64px 0 98px 0;
 }
+
+@media (max-width: 320px) {
+  .features {
+    padding-top: 61px;
+  }
+}

@@ -7,9 +7,9 @@
   color: #ffbb01;
 }
 
-@media (max-width: 789px) {
+@media (max-width: 769px) {
   .hero__subtitle {
-    margin-top: 37px;
+    font-size: 26px;
   }
 }
 

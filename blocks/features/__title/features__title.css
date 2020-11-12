@@ -1,9 +1,23 @@
 .features__title {
   margin: 0 0 80px 0;
   padding: 0;
-
   font-size: 36px;
   line-height: calc(42 / 36);
   font-weight: bold;
   color: #fff;
+}
+
+@media (max-width: 769px) {
+  .features__title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 321px) {
+  .features__title {
+    font-size: 19px;
+    line-height: calc(22 / 19);
+    font-weight: bold;
+    margin-bottom: 59px;
+  }
 }
