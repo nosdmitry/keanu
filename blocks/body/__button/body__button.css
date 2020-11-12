@@ -14,3 +14,10 @@
   border-radius: 10px;
   box-shadow: 0 4px 0 #b68500;
 }
+
+@media (max-width: 320px) {
+  .body__button {
+    font-size: 10px;
+    height: 44px;
+  }
+}

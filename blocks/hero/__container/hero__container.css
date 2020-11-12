@@ -16,5 +16,7 @@
 @media (max-width: 769px) {
   .hero__container {
     grid-template-columns: auto;
+    padding: 42px 25px 44px 25px;
+    
   }
 }

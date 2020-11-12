@@ -24,8 +24,8 @@
   .hero__image {
     grid-row: 1;
     margin: 0 auto;
-    width: 107px;
-    height: 107px;
+    width: 113px;
+    height: 113px;
     border: 3px solid #cecece;
   }
 }
