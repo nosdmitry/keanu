@@ -7,9 +7,16 @@
     font-weight: bold;
     font-size: 18px;
     line-height: 28px;
-    /* or 156% */
     
     text-align: center;
     
     color: #000000;
+}
+
+@media screen and (max-width: 1023px) {
+    .contacts__form-title {
+        max-width: 220px;
+        font-size: 15px;
+        line-height: 21px;
+    }
 }

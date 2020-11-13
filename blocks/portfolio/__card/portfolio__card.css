@@ -3,17 +3,19 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
-    width: 304px;
-    height: 304px;
+    max-width: 304px;
+    max-height: 304px;
+    width: calc(100vw * .2375);
+    height: calc(100vw * .2375);
     text-decoration: none;
     background-size: cover;
     position: relative;
 }
 
-.portfolio__card:before {
+.portfolio__card::before {
     content: " ";
-    width: 304px;
-    height: 304px;
+    width: 100%;
+    height: 100%;
     position: absolute;
     margin: 0;
     background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #213E60 99.85%);
@@ -24,4 +26,11 @@
 
 .portfolio__card:hover::before {
     opacity: .3;
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio__card {
+        width: calc(100vw * .8344);
+        min-height: calc(100vw * .8344);
+    }
 }

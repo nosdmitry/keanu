@@ -14,3 +14,11 @@
     text-decoration: underline;
     opacity: .7;
 }
+
+@media screen and (max-width: 1023px) {
+    .contacts__data-text {
+        margin: 12px 0 0 0;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

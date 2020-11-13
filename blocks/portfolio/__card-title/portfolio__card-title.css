@@ -1,6 +1,7 @@
 .portfolio__card-title {
     display: inline-block;
-    margin: auto auto 76px 30px;
+    left: 30px;
+    bottom: 76px;
     max-width: 170px;
     font-family: Roboto;
     font-style: normal;
@@ -9,6 +10,16 @@
     line-height: calc(28 / 18);
     position: absolute;
     z-index: 1;
+    margin: 0;
 
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 900px) {
+    .portfolio__card-title {
+        left: 24px;
+        bottom: 79px;
+        font-size: 16px;
+        line-height: calc(19 / 16);
+    }
 }

@@ -5,3 +5,10 @@
     line-height: 28px;
     margin: 0;
 }
+
+@media screen and (max-width: 1023px) {
+    .contacts__data-title {
+        font-size: 18px;
+        line-height: 21px;
+    }
+}

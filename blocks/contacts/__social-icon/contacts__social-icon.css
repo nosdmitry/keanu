@@ -7,3 +7,9 @@
 .contacts__social-icon:hover {
     opacity: .7
 }
+
+@media screen and (max-width: 1023px) {
+    .contacts__social-icon {
+        margin: 0 13px 0 0;
+    }
+}

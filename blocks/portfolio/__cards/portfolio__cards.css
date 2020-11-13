@@ -2,7 +2,16 @@
     display: grid;
     grid-template-columns: repeat(3, max-content);
     grid-template-rows: max-content;
+    list-style: none;
     gap: 16px;
     margin: 54px 0 0 0;
     padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio__cards {
+        grid-template-columns: min-content;
+        gap: 35px;
+        margin: 35px 0 0 0;
+    }
 }

@@ -6,3 +6,35 @@
     gap: 16px;
     margin: 96px auto;
 }
+
+@media screen and (max-width: 1023px) {
+    .gallery__container {
+        max-width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        margin: 35px 26px 34px 26px;
+        padding-bottom: 15px;
+    }
+
+    .gallery__container::-webkit-scrollbar {
+        width: 53px;
+        height: 4px;
+    }
+
+    .gallery__container::-webkit-scrollbar-track {
+        background: #CECECE;
+        border-radius: 6px;
+    }
+
+    .gallery__container::-webkit-scrollbar-thumb {
+        background: grey;
+        border-radius: 6px;
+    }
+
+    .gallery__container::-webkit-scrollbar-thumb:hover {
+        background: #FFBB01;
+        border-radius: 6px;
+    }
+}

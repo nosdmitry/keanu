@@ -1,5 +1,16 @@
 .portfolio__card_second {
     background-image: url(../../../../images/portfolio2.jpg);
     border-radius: 6px;
-    transition: transform .5s ease-out;
+}
+
+@media screen and (max-width: 768px) {
+    .portfolio__card_second {
+        min-height: calc(100vw * .3958);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .portfolio__card_second {
+        min-height: calc(100vw * .8344);
+    }
 }

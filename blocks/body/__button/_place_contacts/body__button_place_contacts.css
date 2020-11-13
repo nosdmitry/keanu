@@ -3,3 +3,10 @@
     width: 380px;
     margin: 30px auto 61px auto;
 }
+
+@media screen and (max-width: 1023px) {
+    .body__button_place_contacts {
+        width: 220px;
+        margin: 37px auto 48px auto;
+    }
+}

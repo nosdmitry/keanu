@@ -4,4 +4,11 @@
   min-width: 320px;
   max-width: 1280px;
   font-family: 'Roboto', 'Arial', 'Tahoma', sans-serif;
+  background-color: #1b2944;
+}
+
+@media screen and (max-width: 334px) {
+  .body {
+    min-width: 100%;
+  }
 }

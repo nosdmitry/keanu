@@ -9,3 +9,12 @@
     width: 85%;
   }
 }
+
+.header__social-icon {
+  opacity: 1;
+  transition: opacity .5s ease-out;
+}
+
+.header__social-icon:hover {
+  opacity: .7
+}

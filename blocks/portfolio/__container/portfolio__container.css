@@ -6,3 +6,10 @@
     margin: 64px auto;
     max-width: 944px;
 }
+
+@media screen and (max-width: 768px) {
+    .portfolio__container {
+        margin: 61px auto 89px auto;
+        max-width: calc(100vw * (267 / 320));
+    }
+}

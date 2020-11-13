@@ -8,3 +8,10 @@
 
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 768px) {
+    .portfolio__title {
+        font-size: 19px;
+        line-height: calc(22 / 19);
+    }
+}

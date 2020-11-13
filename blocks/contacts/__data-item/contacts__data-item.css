@@ -9,3 +9,9 @@
 .contacts__data-item:last-of-type {
     margin: 0;
 }
+
+@media screen and (max-width: 1023px) {
+    .contacts__data-item {
+        margin: 0 0 35px 0;
+    }
+}
