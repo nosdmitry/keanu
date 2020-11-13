@@ -14,5 +14,4 @@
 7. Слайдеры и кастомизация скроллбаров
 
 ## Над проектом работали, отказываясь от сна, отдыха и бесполезного интернет-серфинга:
-[Дмитрий Носов](https://github.com/nosdmitry)
-[Алексей Цой](https://github.com/alextcoi)
+[Дмитрий Носов](https://github.com/nosdmitry) и [Алексей Цой](https://github.com/alextcoi)
