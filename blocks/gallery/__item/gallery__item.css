@@ -2,4 +2,13 @@
     width: 224px;
     height: 224px;
     object-fit: cover;
+    flex: 0 0 auto;
+}
+
+@media screen and (max-width: 320px) {
+    .gallery__item {
+        width: 126px;
+        height: 126px;
+        display: flex;
+    }
 }

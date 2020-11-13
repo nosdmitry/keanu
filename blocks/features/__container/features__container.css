@@ -3,3 +3,11 @@
   max-width: 944px;
   padding: 0 25px;
 }
+
+@media screen and (max-width: 1023px) {
+  .features__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

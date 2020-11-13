@@ -20,40 +20,11 @@
     box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
     border-radius: 5px;
     border: none;
+    box-sizing: border-box;
 }
 
 .contacts__form-item:last-of-type {
     margin: 0;
-}
-
-.contacts__form-item::-webkit-input-placeholder {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: calc(28 / 14);
-    
-    color: #949494;
-}
-
-.contacts__form-item::-moz-placeholder {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: calc(28 / 14);
-    
-    color: #949494;
-}
-
-.contacts__form-item::-ms-input-placeholder {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: calc(28 / 14);
-    
-    color: #949494;
 }
 
 .contacts__form-item::placeholder {
@@ -64,4 +35,12 @@
     line-height: calc(28 / 14);
     
     color: #949494;
+}
+
+@media screen and (max-width: 1023px) {
+    .contacts__form-item {
+        width: 220px;
+        height: 64px;
+        margin: 0 0 18px 0;
+    }
 }

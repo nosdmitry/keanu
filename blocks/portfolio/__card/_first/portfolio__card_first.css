@@ -2,3 +2,15 @@
     background-image: url(../../../../images/portfolio1.jpg);
     border-radius: 6px;
 }
+
+@media screen and (max-width: 768px) {
+    .portfolio__card_first {
+        min-height: calc(100vw * .3958);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .portfolio__card_first {
+        min-height: calc(100vw * .8344);
+    }
+}
